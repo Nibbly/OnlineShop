@@ -10,3 +10,5 @@ C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.cspro
 C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.CopyComplete
 C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.exe
 C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.Migrations.Initial.resources
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.GenerateResource.cache

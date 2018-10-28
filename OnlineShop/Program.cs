@@ -11,7 +11,10 @@ namespace OnlineShop
     {
         static void Main(string[] args)
         {
+            ShopContext context = new ShopContext();
+
             Customer c = new Customer() { LastName = "Perry", FirstName = "John", Birthday = new DateTime(2000, 10, 10), Orders = new List<Order>() };
+
 
             List<Customer> custList = new List<Customer>()
             {
@@ -38,6 +41,11 @@ namespace OnlineShop
                 new Product() { Name = "Stool", ProductType = ProductType.Living, Price = 74.95, Description = "If it fits it sits" },
                 new Product() { Name = "Melon", ProductType = ProductType.Food, Price = 5.29, Description = "Delicious" }
             };
+
+            foreach(var item in custList)
+            {
+
+            }
 
             Console.ReadKey();
         }
