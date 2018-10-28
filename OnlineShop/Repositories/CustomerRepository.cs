@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace OnlineShop.Repositories
 {
-    public class CustomerRepository : IShopEntity<Customer, int>
+    public class CustomerRepository : IShopEntity<Customer, int, bool>
     {
         private ShopContext _context;
 
@@ -19,7 +19,15 @@ namespace OnlineShop.Repositories
 
         public void AddItem(Customer item)
         {
-            throw new NotImplementedException();
+            if (!CustomerAlreadyInDb(item))
+            {
+                _context.Customer.Add(item);
+                _context.SaveChanges();
+            }
+            else
+            {
+                Console.WriteLine("This customer already exists. Please enter other data");
+            }
         }
 
         public void DeleteItem(int key)
@@ -43,12 +51,33 @@ namespace OnlineShop.Repositories
 
         public IEnumerable<Customer> GetItems()
         {
-            throw new NotImplementedException();
+            var items = from cust in _context.Customer
+                        select cust;
+
+            return items.ToList();
         }
 
         public void UpdateItem(int key, Customer updatedItem)
         {
             throw new NotImplementedException();
+        }
+
+        public bool CustomerAlreadyInDb(Customer customer)
+        {
+            var newCustomersData = String.Format("{0}{1}{2}", customer.FirstName, customer.LastName, customer.Birthday);
+            bool alreadyExists = false;
+            var customers = from cust in _context.Customer
+                            select cust;
+
+            foreach(var cust in customers)
+            {
+                var customersData = String.Format("{0}{1}{2}", cust.FirstName, cust.LastName, cust.Birthday);
+
+                if (newCustomersData == customersData)
+                    alreadyExists = true;
+            }
+
+            return alreadyExists;
         }
     }
 }

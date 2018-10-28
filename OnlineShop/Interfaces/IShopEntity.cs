@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace OnlineShop.Interfaces
 {
-    interface IShopEntity<T, TKey>
+    interface IShopEntity<T, U, V>
     {
         IEnumerable<T> GetItems();
 
         void AddItem(T item);
 
-        T GetItem(TKey key);
+        T GetItem(U key);
 
-        void UpdateItem(TKey key, T updatedItem);
+        void UpdateItem(U key, T updatedItem);
 
-        void DeleteItem(TKey key);
+        void DeleteItem(U key);
+
+        V CustomerAlreadyInDb(T item);
 
     }
 }

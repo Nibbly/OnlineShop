@@ -13,9 +13,11 @@ namespace OnlineShop
     {
         static void Main(string[] args)
         {
-            IShopEntity<Customer, int> custRep = new CustomerRepository();
-            var cust = custRep.GetItem(1);
-            
+            IShopEntity<Customer, int, bool> custRep = new CustomerRepository();
+
+            Customer c = new Customer() { LastName = "Articus", FirstName = "Kevin", Birthday = new DateTime(1989, 06, 27), Orders = new List<Order>() };
+
+            custRep.AddItem(c); 
 
             Console.ReadKey();
         }

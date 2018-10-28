@@ -66,6 +66,8 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\CustomerRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="ShopContext.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -80,5 +82,6 @@
       <DependentUpon>201810281159254_Delete Product Fk to Orders.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

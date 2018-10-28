@@ -8,9 +8,14 @@ using System.Threading.Tasks;
 
 namespace OnlineShop.Repositories
 {
-    public class ProductRepository : IShopEntity<Product, int>
+    public class ProductRepository : IShopEntity<Product, int, bool>
     {
         public void AddItem(Product item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool CustomerAlreadyInDb(Product item)
         {
             throw new NotImplementedException();
         }
