@@ -18,7 +18,12 @@ namespace OnlineShop.Models
         public int ProductID { get; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public double Price { get; set; }
         public ProductType ProductType { get; set; }
+
+        //Fk to Order
+        public int OrderID { get; set; }
+        public virtual Order Order { get; set; }
 
     }
 }

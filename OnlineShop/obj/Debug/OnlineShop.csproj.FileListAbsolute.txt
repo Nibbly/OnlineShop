@@ -1,0 +1,12 @@
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\bin\Debug\OnlineShop.exe.config
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\bin\Debug\OnlineShop.exe
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\bin\Debug\OnlineShop.pdb
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\bin\Debug\EntityFramework.dll
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\bin\Debug\EntityFramework.xml
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojResolveAssemblyReference.cache
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.CoreCompileInputs.cache
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.CopyComplete
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.exe
+C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb

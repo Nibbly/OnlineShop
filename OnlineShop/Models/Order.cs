@@ -8,8 +8,12 @@ namespace OnlineShop.Models
 {
     class Order
     {
+        public int OrderID { get; set; }
+
+        //FK Customer
         public int CustomerID { get; set; }
-        public int ProductID { get; set; }
-        public int Quantity { get; set; }
+        public Customer Customer { get; set; }
+
+        public virtual List<Product> Products { get; set; }
     }
 }
