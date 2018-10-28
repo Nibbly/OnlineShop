@@ -13,3 +13,16 @@ C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
 C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.Migrations.Initial.resources
 C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.GenerateResource.cache
 C:\Users\fabia\Desktop\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.Migrations.DeleteProductFktoOrders.resources
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\bin\Debug\OnlineShop.exe.config
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\bin\Debug\OnlineShop.exe
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\bin\Debug\OnlineShop.pdb
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\bin\Debug\EntityFramework.dll
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\bin\Debug\EntityFramework.xml
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojResolveAssemblyReference.cache
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.Migrations.Initial.resources
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.Migrations.DeleteProductFktoOrders.resources
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.GenerateResource.Cache
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.exe
+C:\Users\Fabian\Desktop\Coding Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb

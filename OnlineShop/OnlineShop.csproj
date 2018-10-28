@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IShopEntity.cs" />
     <Compile Include="Migrations\201810281151371_Initial.cs" />
     <Compile Include="Migrations\201810281151371_Initial.Designer.cs">
       <DependentUpon>201810281151371_Initial.cs</DependentUpon>

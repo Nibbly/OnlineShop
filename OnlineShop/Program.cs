@@ -1,4 +1,6 @@
-﻿using OnlineShop.Models;
+﻿using OnlineShop.Interfaces;
+using OnlineShop.Models;
+using OnlineShop.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,11 +13,15 @@ namespace OnlineShop
     {
         static void Main(string[] args)
         {
-            ShopContext context = new ShopContext();
+            IShopEntity<Customer, int> custRep = new CustomerRepository();
+            var cust = custRep.GetItem(1);
+            
 
-            Customer c = new Customer() { LastName = "Perry", FirstName = "John", Birthday = new DateTime(2000, 10, 10), Orders = new List<Order>() };
+            Console.ReadKey();
+        }
 
-
+        static void PopulateDatabase(ShopContext context)
+        {
             List<Customer> custList = new List<Customer>()
             {
                 new Customer() { LastName = "Perry", FirstName = "John", Birthday = new DateTime(2000, 10, 10), Orders = new List<Order>() },
@@ -42,10 +48,18 @@ namespace OnlineShop
                 new Product() { Name = "Melon", ProductType = ProductType.Food, Price = 5.29, Description = "Delicious" }
             };
 
+            foreach (var item in custList)
+            {
+                context.Customer.Add(item);
+            }
+
+            foreach (var item in productList)
+            {
+                context.Product.Add(item);
+            }
+
 
             context.SaveChanges();
-
-            Console.ReadKey();
         }
 
         static void DisplayAllCustomerData(Customer customer)
