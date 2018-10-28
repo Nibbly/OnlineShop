@@ -55,6 +55,10 @@
     <Compile Include="Migrations\201810281151371_Initial.Designer.cs">
       <DependentUpon>201810281151371_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810281159254_Delete Product Fk to Orders.cs" />
+    <Compile Include="Migrations\201810281159254_Delete Product Fk to Orders.Designer.cs">
+      <DependentUpon>201810281159254_Delete Product Fk to Orders.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Order.cs" />
@@ -70,6 +74,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201810281151371_Initial.resx">
       <DependentUpon>201810281151371_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810281159254_Delete Product Fk to Orders.resx">
+      <DependentUpon>201810281159254_Delete Product Fk to Orders.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

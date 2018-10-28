@@ -42,10 +42,8 @@ namespace OnlineShop
                 new Product() { Name = "Melon", ProductType = ProductType.Food, Price = 5.29, Description = "Delicious" }
             };
 
-            foreach(var item in custList)
-            {
 
-            }
+            context.SaveChanges();
 
             Console.ReadKey();
         }
